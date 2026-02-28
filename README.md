@@ -73,3 +73,17 @@ This creates:<br>
 Real-time token streaming<br>
 Typing effect<br>
 Smooth user experience<br>
+
+### 🔄 Memory Handling
+
+Two layers of memory:
+
+🔹 Backend Memory<br>
+LangGraph state<br>
+Thread ID based<br>
+InMemorySaver<br>
+
+🔹 Frontend Memory<br>
+st.session_state<br>
+Stores role & content<br>
+Used to reload chat on page refresh<br>
